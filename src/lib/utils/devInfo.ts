@@ -10,19 +10,18 @@ export interface Developer {
   ides: string[];
 }
 
-export const Akshay: Developer = {
-  about: "Hey, I'm Akshay V, a CSE undergrad from NITT Trichy with keen interests in building scalable \nand secure applications, and exploring financial and leadership opportunities",
-  code: ["Golang", "Python", "Elixir", "Kotlin", "Swift", "Dart", "C++", "C", "SQL"],
+export const Hasini: Developer = {
+  about: "Hey, I'm Hasini Thakkallapelly, a CSE undergrad from NITT Trichy.",
+  code: ["Golang", "Python", "C++", "C", "SQL"],
   interests: [
     "Application-Development",
     "Artificial Intelligence",
     "Backend Development",
     "Finance",
-    "Leadership",
-    "Sports"
+    "Leadership"
   ],
-  toolsUsed: ["Docker", "Git", "Excel", "PowerBI", "Postman","Github"],
-  ides: ["VSCode", "Android Studio", "Xcode", "PyCharm"],
-  frameWorks: ["Flask", "FastAPI", "Phoenix", "Gin", "PostGIS", "PostgreSQL", "MySQL", "Cassandra", "ScyllaDB", "CockroachDB",
+  toolsUsed: ["Docker", "Git", "Excel", "PowerBI", "Postman", "Github"],
+  ides: ["VSCode", "Xcode", "PyCharm"],
+  frameWorks: ["Flask", "FastAPI", "Gin", "PostGIS", "PostgreSQL", "MySQL", "Cassandra", "ScyllaDB", "CockroachDB",
     "Tensorflow", "numpy", "matplotlib"]
 };

@@ -171,7 +171,7 @@
   onMount(() => {
     syncProjectsToFileSystem(fileSystem);
     showPrompt = true;
-    addLine("Welcome to akshay's Terminal");
+    addLine("Welcome to Hasini's Terminal");
     addLine('Type "help" to see available commands');
     addLine('Try "ls" to see available files and directories');
   });
@@ -224,7 +224,7 @@
       ></div>
     </div>
     <div class="flex-grow text-center text-sm text-gray-400">
-      akshay@macbook: ~/{currentDirectory.join("/")}
+      hasini@macbook: ~/{currentDirectory.join("/")}
     </div>
   </div>
 
@@ -248,7 +248,7 @@
   <!-- Terminal Input -->
   {#if showPrompt}
     <div class="bg-black/30 px-4 py-2 flex items-center">
-      <span class="text-green-400 mr-1">akshay@macbook</span>
+      <span class="text-green-400 mr-1">hasini@macbook</span>
       <span class="text-white mr-1">:</span>
       <span class="text-blue-400 mr-1">~/{currentDirectory.join("/")}</span>
       <span class="text-white mr-2">$</span>

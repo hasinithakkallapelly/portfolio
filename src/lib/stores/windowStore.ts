@@ -7,7 +7,7 @@ let nextZIndex = 1;
 export function addWindow(type: "terminal" | "safari" | "photos" | "projects" | "github") {
 
   if (type === "github") {
-    window.open('https://github.com/codx-aks', '_blank');
+    window.open('https://github.com/hasinithakkallapelly', '_blank');
     return;
   }
 

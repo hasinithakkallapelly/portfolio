@@ -1,26 +1,26 @@
-import { Akshay } from "./devInfo";
+import { Hasini } from "./devInfo";
 import { syncProjectsToFileSystem } from "./syncProjects";
 
 export const fileSystem: FileSystem = {
   home: {
     about: `
-${Akshay.about}
+${Hasini.about}
 
 Programming Languages:
-${Akshay.code.join(", ")}
+${Hasini.code.join(", ")}
 
 Frameworks:
-${Akshay.frameWorks.join(", ")}
+${Hasini.frameWorks.join(", ")}
 
 Tools Used:
-${Akshay.toolsUsed.join(", ")}
+${Hasini.toolsUsed.join(", ")}
 
 IDEs:
-${Akshay.ides.join(", ")}
+${Hasini.ides.join(", ")}
     `,
     projects: {},
     interests: `
-${Akshay.interests.join("\n")}
+${Hasini.interests.join("\n")}
     `,
   },
 };

@@ -38,7 +38,7 @@
       if (appType === 'launchpad') {
         dispatch('openLaunchpad');
       } else if (appType === 'github') {
-        window.open('https://github.com/codx-aks', '_blank');
+        window.open('https://github.com/hasinithakkallapelly', '_blank');
       } else {
         addWindow(appType as 'terminal' | 'safari' | 'photos'| 'projects');
       }

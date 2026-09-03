@@ -2,8 +2,8 @@
   import { createEventDispatcher,onMount } from 'svelte';
   import { windows } from '../stores/windowStore';
 
-  export let isAppRunning: (type: 'terminal' | 'safari' | 'photos' | 'projects') => boolean;
-  export let isAppMinimized: (type: 'terminal' | 'safari' | 'photos'| 'projects') => boolean;
+  export let isAppRunning: (type: 'terminal' | 'safari' | 'photos' | 'projects' | 'contact') => boolean;
+  export let isAppMinimized: (type: 'terminal' | 'safari' | 'photos'| 'projects' | 'contact') => boolean;
   export let addWindow: (type: 'terminal' | 'safari' | 'photos' | 'projects') => void;
 
   import launchpad from '$lib/assets/icons/launchpad.png';

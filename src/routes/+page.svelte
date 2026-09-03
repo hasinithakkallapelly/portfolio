@@ -23,14 +23,14 @@
   }
 
   function handleLaunchApp(event: CustomEvent<string>) {
-    addWindow(event.detail as "terminal" | "safari" | "photos" | "blog" | "projects" | "github");
+    addWindow(event.detail as "terminal" | "safari" | "photos" | "projects" | "github");
     isLaunchpadOpen = false;
   }
 </script>
 
 <main class="min-h-screen font-mono relative overflow-hidden">
   <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-teal-800 opacity-80"></div>
-  
+
   <Desktop />
   
   {#each $windows as window (window.id)}

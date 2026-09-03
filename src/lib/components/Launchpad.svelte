@@ -5,7 +5,6 @@
   import terminal from '$lib/assets/icons/terminal.avif';
   import safari from '$lib/assets/icons/safari.png';
   import projects from '$lib/assets/icons/projects.png';
-  import blog from '$lib/assets/icons/blog.png';
   import github from '$lib/assets/icons/github.png';
   import clave from '$lib/assets/icons/clave.png';
   

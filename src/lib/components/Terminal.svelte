@@ -61,7 +61,7 @@
 
   function processCommand(cmd: string) {
     addLine(
-      `<span class="text-green-400">akshay@macbook</span><span class="text-white">:</span><span class="text-blue-400">~/${currentDirectory.join("/")}</span><span class="text-white">$</span> ${cmd}`
+      `<span class="text-green-400">hasini@macbook</span><span class="text-white">:</span><span class="text-blue-400">~/${currentDirectory.join("/")}</span><span class="text-white">$</span> ${cmd}`
     );
 
     commandHistory = [cmd, ...commandHistory];
